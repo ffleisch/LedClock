@@ -15,9 +15,7 @@ Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 #include <NTPClient.h>
 #include <WiFiUdp.h>
 
-// Replace with your network credentials
-const char *ssid     = "Natasliah";
-const char *password = "2x3x3x37";
+#include "credentials.h"
 
 // Define NTP Client to get time
 WiFiUDP ntpUDP;
